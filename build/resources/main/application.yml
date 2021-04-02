@@ -7,3 +7,8 @@ spring:
   h2:
     console:
       enabled: true
+  mustache:
+    charset: "UTF-8"
+    suffix: ".mustache"
+    prefix: "classpath:/templates/"
+    cache: false
